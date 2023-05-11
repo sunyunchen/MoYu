@@ -18,7 +18,7 @@
 [rewrite_local]
   
 # > focos☆解锁会员权限（2023-05-05）@ddgksf2013
-^https?:\/\/buy\.itunes\.apple\.com\/\w{13}$ url script-response-body https://github.com/sunyunchen/MoYu/blob/master/focos.js
+^https?:\/\/buy\.itunes\.apple\.com\/\w{13}$ url script-response-body https://raw.githubusercontent.com/sunyunchen/MoYu/master/focos.js
 
 
 [mitm]
